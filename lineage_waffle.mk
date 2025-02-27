@@ -12,9 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/waffle/device.mk)
 
 # Inherit some common YAAP stuff.
-$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := yaap_waffle
+PRODUCT_NAME := lineage_waffle
 PRODUCT_DEVICE := waffle
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
