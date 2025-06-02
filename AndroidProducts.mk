@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_waffle.mk
+    $(LOCAL_DIR)/lineage_waffle.mk
 
 COMMON_LUNCH_CHOICES := \
-    yaap_waffle-user \
-    yaap_waffle-userdebug \
-    yaap_waffle-eng
+    lineage_waffle-user \
+    lineage_waffle-userdebug \
+    lineage_waffle-eng
